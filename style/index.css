@@ -1,0 +1,41 @@
+@font-face {
+	font-family: open-sans;
+	src: url('../assets/OpenSans-Regular.ttf');
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+	height: 100vh;
+	font-family: open-sans;
+}
+
+html {
+	background-image: url('../assets/index-background.jpg');
+	background-size: 100% 100%;
+}
+
+body {
+	background-color: rgba(38,50,56, 0.35);
+}
+
+#connection {
+	top: 30%;
+}
+
+#connection h1{
+	text-align: center;
+	color: #fff;
+}
+
+#connection input {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+#error {
+	color: #fff;
+	text-align: center;
+	font-size: 19px;
+}
